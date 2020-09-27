@@ -2,6 +2,10 @@ import React from 'react';
 import Card from './Card';
 import './List.css';
 
+function Test(input) {
+    return input;
+}
+
 function List(props) {
     //use the array map to turn array into cards li's
     return (

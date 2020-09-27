@@ -2,6 +2,8 @@ import React from 'react';
 import './Card.css';
 //adds delete button
 //adds props of title, content
+//please work
+
 
 function Card(props) {
     //const className = `split ${props.className}`;
