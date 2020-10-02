@@ -6,10 +6,10 @@ import './Card.css';
 
 
 function Card(props) {
-    //const className = `split ${props.className}`;
     return (
         <li className='Card'>
-            <button>Delete Card</button>
+            <button onClick={() => props.onDeleteItem(props)}>Delete Card</button>
+
             <b>{props.title}</b>
             <br />
             {props.content}
